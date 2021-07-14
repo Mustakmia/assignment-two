@@ -1,0 +1,148 @@
+body {
+    background-color: lightcyan;
+}
+
+header {
+    background-color: rgb(42, 30, 202);
+    width: 100%;
+    height: 590px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.nav :hover {
+    color: rgba(255, 174, 0, 0.808);
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+
+/* ---------------nav--------- */
+
+.copa-America {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600px bold;
+    font-size: 64.5px;
+    margin-top: 0px;
+}
+
+.baner {
+    display: flex;
+    margin-top: 156px;
+    margin-left: 247px;
+    margin-bottom: 100px;
+    margin-right: 113px;
+}
+
+.lol {
+    box-shadow: 10px solid black;
+}
+
+.top-baner {
+    display: block;
+}
+
+.top-baner img {
+    width: 439px;
+    height: 369px;
+    left: 1193px;
+    top: 156px;
+}
+
+.link {
+    text-decoration: none;
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    width: 330px;
+    height: 360px;
+    margin-top: 70px;
+}
+
+.content img {
+    width: 330px;
+    height: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.botom {
+    display: inline-block;
+}
+
+.blog-title h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 800px bold;
+    font-size: 50px;
+}
+
+.grid img {
+    width: 330px;
+    height: 400px;
+    margin-right: 30px;
+}
+
+.botom {
+    display: flex;
+}
+
+.blog-title-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-size: 53px;
+    text-align: center;
+}
+
+.blog-title p a {
+    text-decoration: none;
+}
+
+.botom img {
+    width: 567px;
+    height: 400px;
+    margin-right: 155px;
+    margin-left: 0px;
+}
+
+.all {
+    text-align: center;
+}
+
+.social .fab {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width:600px) {
+    .content {
+        width: 100%;
+    }
+    .flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
